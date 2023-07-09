@@ -1,0 +1,66 @@
+- summary: |
+  Проверка  добавление товара в корзину 
+  requirement: |
+    При добавлении товара в корзину он должен появится в корзине 
+  prerequisites:
+   Нужно находится на сайте магазина https://hexlet-products-store.vercel.app/
+  test-data: |
+  язык: Русский 
+  steps:
+  -выбираем товар из списка представленых 
+  -нажимаем в меню товара на кнопку В корзину 
+  expected-result: |
+   Товар успешно добавлен в корзину 
+   
+
+- summary: |
+  Проверка очистки корзины от товаров 
+  requirement: |
+   При нажатии на кнопку очистить корзину товар ранее добавленый в корзину должен удалится из корзины 
+  prerequisites:
+   Нужно находится в Корзине https://hexlet-products-store.vercel.app/cart 
+   добавлен товар в корзину 
+  test-data: |
+  язык: Русский
+  steps: 
+  нажать кнопку очистить корзину 
+  expected-result: |
+  Товар успешно удален из корзины 
+
+  - summary: |
+
+  requirement: |
+  
+  prerequisites:
+   
+  test-data: |
+  язык: Русский 
+  steps:
+ 
+  expected-result: |
+
+   - summary: |
+
+  requirement: |
+  
+  prerequisites:
+   
+  test-data: |
+  язык: Русский 
+  steps:
+ 
+  expected-result: |
+
+
+   - summary: |
+
+  requirement: |
+  
+  prerequisites:
+   
+  test-data: |
+  язык: Русский 
+  steps:
+ 
+  expected-result: |
+   
