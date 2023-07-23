@@ -5,14 +5,14 @@
 
 - summary: |
    Проверка работы кнопок перемещения на сайте (Следующая)
-  status: fail
+  status: pass
   
 - summary: |
 Проверка работы фильтров по цене 
- status:
+ status: pass
 - summary: |
 Проверка очистки корзины от товаров 
- status:
+ status:pass
 - summary: |
 Проверка работы фильтрации товаров по категориям
- status:
+ status:pass
