@@ -53,25 +53,3 @@
   Должен произойти сброс фильтров на следующуей страницы для отображения товаров 
   actual-result: |
 пустая витрина товаров 
-    ---
-- summary: |
-    
-  environment: |
-       
-  steps-to-reproduce: |
-
-  expected-result: |
-  
-  actual-result: |
-
-    ---
-- summary: |
-    
-  environment: |
-   
-  steps-to-reproduce: |
-
-  expected-result: |
-  
-  actual-result: |
-
