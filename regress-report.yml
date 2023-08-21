@@ -1,32 +1,30 @@
----
 test-cases:
-  - summary: |
-  Проверка  добавление товара в корзину 
-    status: pass
+summary: |
+-Проверка  добавление товара в корзину 
+status: pass
 
-  - summary: |
-   Проверка очистки корзины от товаров 
-    status:  pass
+summary: |
+-Проверка очистки корзины от товаров 
+status:  pass
       
-    - summary: |
-Проверка работы фильтров по цене 
-   status:  pass
+summary: |
+-Проверка работы фильтров по цене 
+status:  pass
 
-     - summary: |
-Проверка работы кнопок перемещения на сайте (Следующая)
-   status:  pass
+summary: |
+-Проверка работы кнопок перемещения на сайте (Следующая)
+status:  pass
 
-    bugreports:
-  - summary: |
-   Не корректная работа поисковой строки 
-    environment: |
-     Oc Windows 10 Pro 
-   Google Chrome Версия 115.0.5790.171 (Официальная сборка), (64 бит)
-  steps-to-reproduce: |
-    steps-to-reproduce: |
-   Открыть  https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
-   Ввести в поисковую строку Любое слово,название бренда или товара которого нет каталоге 
-    expected-result: |
-      пустая выдача результата 
-    actual-result: |
-   Выдает весь представленый товар в каталоге 
+bugreports:
+summary: |
+-Не корректная работа поисковой строки 
+environment: |
+-Oc Windows 10 Pro 
+-Google Chrome Версия 115.0.5790.171 (Официальная сборка), (64 бит)
+steps-to-reproduce: |
+-Открыть  https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
+-Ввести в поисковую строку Любое слово,название бренда или товара которого нет каталоге 
+expected-result: |
+-пустая выдача результата 
+actual-result: |
+-Выдает весь представленый товар в каталоге 
