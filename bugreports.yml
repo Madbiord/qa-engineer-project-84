@@ -1,56 +1,56 @@
 ---
 - summary: |
    слетевшая верстка сайта на мобильном устройстве 
- environment: |
+  environment: |
    устройство Redmi 9c 
-  Oc  android 10
+   Oc  android 10
    мобильный браузер Chrome 114.0.5735.130 
- steps-to-reproduce: |
+  steps-to-reproduce: |
    Открыть в смартфоне Redmi 9с браузер Chrome 
    Ввести в поисковую строку адресс сайта https://hexlet-products-store.vercel.app/
- expected-result: |
+  expected-result: |
    Корректное отображение сайта (нет поплывшей верстки через мобильные устройства сайта)
- actual-result: |
+  actual-result: |
    Не корректное отображение фильтров для товаров (слетевшая верстка сайта)
 
 - summary: |
    отсутсвие в меню фильтров сброса параметров фильтров до стандартных значений 
- environment: |
+  environment: |
    Oc Windows 10 Pro 
    Google Chrome Версия 115.0.5790.171 (Официальная сборка), (64 бит)
- steps-to-reproduce: |
+  steps-to-reproduce: |
    Открыть сайт https://hexlet-products-store.vercel.app/
    Выбрать русский язык оформления сайта 
    Выбрать параметры фильтров (пример категория)
- expected-result: |
+  expected-result: |
    Должна быть возможность сбросить выбранный параметры  фильтра 
- actual-result: |
+  actual-result: |
    Нельзя сбросить до стандартных значений фильтра
       ---
 - summary: |
    фильтр не сбрасывается при переходе на следующую страницу  
- environment: |
+  environment: |
    Oc Windows 10 Pro 
    Google Chrome Версия 115.0.5790.171 (Официальная сборка), (64 бит)
- steps-to-reproduce: |
+  steps-to-reproduce: |
    Открыть сайт https://hexlet-products-store.vercel.app/
    Использовать фильтрацию например выставить параметры фильтра по категориям  (smartphones)
    Перейти на следующую страницу 
   expected-result: |
    Должен произойти сброс фильтров на следующуей страницы для отображения товаров 
- actual-result: |
+  actual-result: |
    пустая витрина товаров 
 
 - summary: |
    не работающая кнопка закрытия меню оформления заказа крестик 
- environment: |
+  environment: |
    Oc Windows 10 Pro 
    Google Chrome Версия 115.0.5790.171 (Официальная сборка), (64 бит)
- steps-to-reproduce: |
+  steps-to-reproduce: |
    Открыть сайт https://hexlet-products-store.vercel.app/
    Добавить товар в корзину 
    Нажать кнопку оформления заказа (Оформить заказ)
- expected-result: |
+  expected-result: |
    Меню оформления должно закрытся после нажатия кнопки x 
- actual-result: |
+  actual-result: |
    Кнопка не нажимается 
